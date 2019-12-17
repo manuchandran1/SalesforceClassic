@@ -43,6 +43,7 @@ public class AssetChangeDate
 		driver.findElement(By.id("PurchaseDate")).clear();
 		driver.findElement(By.id("PurchaseDate")).sendKeys("8/11/1996");
 		
+		//Click the save button
 		driver.findElement(By.xpath("//td[@id='topButtonRow']//input[@name='save']")).click();
 		
 		

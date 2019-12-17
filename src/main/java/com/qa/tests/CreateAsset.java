@@ -47,7 +47,7 @@ public class CreateAsset extends TestBase
 		
 		driver.findElement(By.xpath("//label[@for='Description']//parent::td//following-sibling::td//textarea")).sendKeys("TestDescription");
 		
-		//Clicked the save button
+		//Clicking the save button 
 		driver.findElement(By.xpath("//input[@class='btn' and @name='save']")).click();
 		
 		Thread.sleep(4000);
